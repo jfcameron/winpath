@@ -20,6 +20,7 @@ example uses:
 `$explorer.exe $(winpath.sh)` : this would open the current directory in ms explorer
 
 `$code.exe $(winpath.sh main.c)` : this would open main.c in vs code
+
 `$firefox.exe $(git remote get-url origin)` : this would open the web interface for the current local copy
 
 consider adding winpath to your path for the most convenience.
