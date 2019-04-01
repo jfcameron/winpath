@@ -16,7 +16,7 @@ then refer to winpath.sh -h:
 
     #---------------------------------------------------------------------
     #
-    # $progName -- help info 
+    # winpath.sh -- help info 
     #
     # Summary:
     #   Converts a posix path within a linux installation on the linux submodule of win10 to
@@ -25,10 +25,10 @@ then refer to winpath.sh -h:
     #   supports paths through /mnt/*/ e.g: mnt/c converts to c:\ and so on
     #
     # Example Usage:
-    #   $shortProgName 
-    #   $shortProgName Workspace/glfw 
+    #   winpath.sh 
+    #   winpath.sh Workspace/glfw 
     #
-    # $shortProgName: [ -h {path} ]
+    # winpath.sh: [ -h {path} ]
     #   option: -h
     #     print this help page
     #
