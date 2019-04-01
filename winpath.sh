@@ -81,7 +81,11 @@ function convertPath()
 if [ $# == 0 ]; then
     convertPath "$(pwd)"
 elif [ $# == 1 ]; then
-    convertPath "${1}"
+    if [ "$1" == "-h" ]; then 
+        printHelp
+    else
+        convertPath "${1}"
+    fi
 else
   Error "too many arguments provided. Use -h to display help message."
 fi
