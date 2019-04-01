@@ -67,7 +67,7 @@ RequiredVar "JFC_WINPATH_FS_ROOT" "the windows path to the root of your linux in
 # \brief converts POSIX path within wsl to windows path
 function convertPath()
 {
-    posix_path=$(realpath "${1}")                             # remove symbolic pathing
+    posix_path=$(realpath "${1}")                               # remove symbolic pathing
     posix_path=$(echo "$posix_path" | sed s/\\\//\\\\/g);       # replace / with \
     posix_path="${JFC_WINPATH_FS_ROOT}${posix_path}"            # append path to root subsystem fs
     posix_path=$(echo $posix_path | sed '$s/.*mnt\\\(.\)/\1:/') # handle access to native fs roots via mnt 
