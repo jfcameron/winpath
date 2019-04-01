@@ -10,7 +10,7 @@ Supports paths through /mnt/*/
 ## Usage
 Set the following variable in your bash profile:
 
-    export JFCAMERON_WINPATH_LINUX_ROOT_PATH="C:\path\to\linuxfs"
+    export JFC_WINPATH_FS_ROOT="C:\path\to\linuxfs"
 
 then refer to winpath.sh -h:
 
