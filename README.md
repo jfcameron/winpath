@@ -21,6 +21,6 @@ example uses:
 
 `$code.exe $(winpath.sh main.c)` : this would open main.c in vs code
 
-`$firefox.exe $(git remote get-url origin)` : this would open the web interface for the current local copy
+`$firefox.exe $(git remote get-url origin)` : this would open the web interface for the remote "origin" of a local copy of a git repository hosted on github
 
 consider adding winpath to your path for the most convenience.
